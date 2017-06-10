@@ -1,0 +1,133 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-10 20:53:09 +0200
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 347ms (Views: 340.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-06-10 20:53:10 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-06-10 20:53:10 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-06-10 20:53:10 +0200
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-06-10 20:53:10 +0200
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2017-06-10 20:53:10 +0200
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 20:53:55 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bF6L3gc6KzkfXX1FPJBbuUEd4mpHRfo/W4zoFNRIN9ZTaW+/Ht62QANJgAikz/qHHc9bXIMDXsDnoDKnjK0/TQ==", "plateau_corner"=>"5 5 ", "current_position"=>"1 2 N ", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.5ms)
+  Rendered rovers/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 20:54:07 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0+ys5tS68EXz/of+WIsANpIEylC2TBBxlaOs1i0dhDfs20iHzV5tPO/qerPA1KEIztZzZnIKtI4pj3ZldfiMrA==", "plateau_corner"=>"5 5 ", "current_position"=>"1 2 N ", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 20:54:09 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qqhMQPMpdx/W08Onv1N06MbEPjC13qtpRDuCS8jLF/iVn6gh6s3qZsrHPuonDNXWmhaHBnGYD5b4F1j4kC4fYw==", "plateau_corner"=>"5 5 ", "current_position"=>"1 2 N ", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 20:54:24 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CKIJZdFCI+zQbq8tRb7NodEpUMzCOJz4bhJidoWQvdY3le0EyKa+lcx6UmDd4Wyfjfvp+gZ+OAfSPrjF3XW1TQ==", "plateau_corner"=>"5 5 ", "current_position"=>"1 3 N ", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-10 20:57:51 +0200
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 21:09:50 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T3V6hydP0zbdUFy0LaPgwJmFUyBP1+y3NAECN0W914FwQp7mPqtOT8FEofm1/EH+xVfqFouRSEiILdiEHVjfGg==", "plateau_corner"=>"8 8", "current_position"=>"1 2 E", "commands"=>"MMLMRMMRRMML", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.1ms)
+  Rendered rovers/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-10 21:41:00 +0200
+Processing by RoversController#index as HTML
+  Rendered rovers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 21:41:02 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rqUDghULpha0MdSko0kJ9phQDWwicYlg/HSwmyCWdmKRkufjDO87b6glKek7FqjIxIK0WuY3LZ9AWGooeHN++Q==", "plateau_corner"=>"", "current_position"=>"", "commands"=>"", "commit"=>"GO"}
+  Rendered rovers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 21:41:06 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vFeNCx5jlXMS5/3jmm4PeI6ofkj/VPPh/MRV0u+tk0yDYGlqB4cICg7zAK4CMa5G0nrHfjsSVx5A6I9ht0ib1w==", "plateau_corner"=>"", "current_position"=>"", "commands"=>"", "commit"=>"GO"}
+  Rendered rovers/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 21:41:07 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RAiCnw2yVDP8yEaPLOJ8zVuCNzr6hO8HLACI4N68Sth7P2b+FFbJSuDcu8K0vd3zB1CODD7CS/iQLFJThllCQw==", "plateau_corner"=>"", "current_position"=>"", "commands"=>"", "commit"=>"GO"}
+  Rendered rovers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 21:44:46 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tvB/TED/eTdp+cEFUhZJkaF68U+XA7EOg/4VYZfdMzKJx5stWRvkTnXtPEjKSeiv/ahIeVNFFfE/0s/Szzg7qQ==", "plateau_corner"=>"", "current_position"=>"", "commands"=>"", "commit"=>"GO"}
+  Rendered rovers/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28615ms (Views: 211.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 21:45:40 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MzVFWikBOuSO7hME9+YWL+/By4r3pzdbIYDqi/yHjeIMAqE7MOWnnZL67klvubcRsxNyvDPhk6SdrDA4pGKFeQ==", "plateau_corner"=>"5 5 ", "current_position"=>"1 2 N ", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.3ms)
+  Rendered rovers/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 112607ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 23:11:22 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hQk5j2rmfgSJBFYIM2Fi+OswpbsgYBkFB8NqI5SbND26Pt3ucwLjfZUQq0WrPsPGt+IcjeQmvfq777CQzH48pg==", "plateau_corner"=>"8 8", "current_position"=>"1 2 N ", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 23:11:43 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xpuMjd83jCihZIDH4QKscP0U2Di2pceWQipttNjpzt35rGjsxtMRUb1wfYp5XQ1OocZhDnLjY2n+BrcHgAzGRg==", "plateau_corner"=>"8 8", "current_position"=>"1 2 E", "commands"=>"LMLMLMLMM", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.2ms)
+  Rendered rovers/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/rovers/move" for 127.0.0.1 at 2017-06-10 23:12:00 +0200
+Processing by RoversController#move as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zl2LNDRJy3rP2Pbil5PueDI/ePc0ZqpLOQNqbJ9PalJZam9VLa1WA9PMC68PzE9Gbu3BwfAgDrSFL7Dfx6piyQ==", "plateau_corner"=>"8 8", "current_position"=>"1 2 E", "commands"=>"MMLMRMMRRMML", "commit"=>"GO"}
+  Rendered rovers/_result.html.erb (0.0ms)
+  Rendered rovers/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
